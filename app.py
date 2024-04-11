@@ -1,7 +1,6 @@
 import streamlit as st
 import pandas as pd
 import plotly.express as px
-import openpyxl
 
 
 df1 = pd.read_excel('./RF_salaries.xlsx', skiprows=range(4))
